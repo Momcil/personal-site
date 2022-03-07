@@ -3,54 +3,39 @@
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
+  list-style-type: none;
 }
 
+.container-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
+  background-color: rgb(205, 236, 226);
+}
+.menu {
+  width: 3.5rem;
+  border: solid black 5px;
+}
 .wrap {
-  position: absolute;
   right: 0;
   display: flex;
   width: 100%;
   min-height: 100vh;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: rgb(205, 236, 226);
-}
-
-.wrap main {
-  display: flex;
-  position: relative;
-  right: 0%;
-}
-
-.wrap header {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  padding: 3rem 4rem;
-}
-.toggle {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  background: url(´menu.png´);
+  border: 5px solid red;
+  flex-direction: column;
 }
 .text {
-  position: relative;
-  margin: 6rem auto;
-  max-width: 31.5%;
-  padding-left: 3rem;
-  padding-bottom: 4rem;
+  /* width: 30rem;
+  padding-left: 1rem; */
+  border: 5px solid black;
 }
 
 .vratsa {
   max-width: 25rem;
   max-width: 25rem;
-}
-
-.menu {
-  position: relative;
-  margin: 6rem auto;
-  width: 31.5%;
-  padding-left: 3rem;
-  padding-bottom: 4rem;
+  border: solid purple 5px;
 }
